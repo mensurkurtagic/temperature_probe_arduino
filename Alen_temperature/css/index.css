@@ -1,0 +1,18 @@
+.wrapper{ position: absolute; width: 100%; height: 100%; top: 0; left: 0; background: rgba(0,0,0,0.15); }
+.wrapper .table-wrapper { position: relative; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 700px; height: 500px; border-radius: 5px; border: 1px solid rgba(0,0,0,0.5); }
+.wrapper .table-wrapper .header { position: relative; width: 100%; height: 60px; background: #bde8f6; text-align: center; border-bottom: 1px solid rgba(0,0,0,0.5); }
+.wrapper .table-wrapper .header .header--title { position: relative; top: 50%; transform: translateY(-50%); padding: 0; margin: 0; }
+
+.wrapper .table-wrapper .table { position: relative; width: 100%; height: calc(100% - 61px); }
+.wrapper .table-wrapper .table .rows { position: relative; width: 100%; height: calc(50% - 1px); border-bottom: 1px solid rgba(0,0,0,0.5); }
+#row2 { border: none; height: 50%; }
+#cell2 { border: none; }
+
+.wrapper .table-wrapper .table .rows .cells { float: left; width: calc(50% - 1px); height: 100%; border-right: 1px solid rgba(0,0,0,0.5); background: #fff; }
+.wrapper .table-wrapper .table .rows .cells h2 { text-align: center; position: relative; top: 10%; }
+.wrapper .table-wrapper .table .rows .cells .temp-label {display: inline-block; font-size: 20px; margin-left: 25%; }
+.wrapper .table-wrapper .table .rows .cells .data { display: inline-block; font-size: 20px; margin-left: 10px; }
+.wrapper .table-wrapper .table .rows .cells .stagod { font-size: 20px; }
+
+
+
